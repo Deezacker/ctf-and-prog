@@ -1,6 +1,12 @@
 File sharing using ssh
 
-after basic steps 
+STEP 1 START SSH ON BOTH LINUX MACHINE 
 
-scp file.txt kali@ip:/path/where/u/sendit
+sudo systemctl start ssh 
+
+Create 1 One testfile like : test.txt
+
+now copy ip address which linux system you want to send 
+
+scp test.txt kali@ip_address:/home/kali/Downloads
 
