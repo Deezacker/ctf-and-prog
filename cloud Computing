@@ -1,0 +1,6 @@
+File sharing using ssh
+
+after basic steps 
+
+scp file.txt kali@ip:/path/where/u/sendit
+
