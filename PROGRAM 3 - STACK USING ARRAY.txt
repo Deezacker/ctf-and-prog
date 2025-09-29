@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int stack[5], top = -1;
+
+    // Push 3 elements
+    top++;
+    stack[top] = 10;
+    top++;
+    stack[top] = 20;
+    top++;
+    stack[top] = 30;
+
+    // Display stack
+    cout << "Stack Elements:\n";
+    for (int i = top; i >= 0; i--)
+        cout << stack[i] << endl;
+
+    // Peek
+    if (top != -1)
+        cout << "Top Element: " << stack[top] << endl;
+
+    // Pop 1 element
+    if (top != -1)
+        top--;
+
+    // Display after pop
+    cout << "Stack after pop:\n";
+    for (int i = top; i >= 0; i--)
+        cout << stack[i] << endl;
+
+    return 0;
+}

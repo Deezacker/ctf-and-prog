@@ -1,0 +1,41 @@
+//Queue
+#include <iostream>
+using namespace std;
+
+#define SIZE 5
+
+int main() {
+    int queue[SIZE];
+    int front = -1, rear = -1;
+
+    // Enqueue 3 elements
+    if (rear < SIZE - 1) {
+        rear++;
+        queue[rear] = 10;
+        if (front == -1) front = 0;
+    }
+    if (rear < SIZE - 1) {
+        rear++;
+        queue[rear] = 20;
+    }
+    if (rear < SIZE - 1) {
+        rear++;
+        queue[rear] = 30;
+    }
+
+    // Display queue
+    cout << "Queue elements:\n";
+    for (int i = front; i <= rear; i++)
+        cout << queue[i] << endl;
+
+    // Dequeue 1 element
+    if (front != -1 && front <= rear)
+        front++;
+
+    // Display after dequeue
+    cout << "Queue after one dequeue:\n";
+    for (int i = front; i <= rear; i++)
+        cout << queue[i] << endl;
+
+    return 0;
+}
