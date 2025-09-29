@@ -1,0 +1,26 @@
+DOWNLOAD JAVA HERE : 
+
+https://www.java.com/en/download/manual.jsp
+
+Copy Java path after shown bin file
+
+now open edit the system environment variables in windows and paste the path
+
+Now download cloudsim file and common math and extract both file 
+
+now open common math and copy first jar file and paste in on cloudsim jar folder 
+
+now copy clousim folder and paste it in document folder
+
+Now download ECLIPSE IDE FOR JAVA DEVELOPERS
+
+open ECLIPSE and Create Java Proj
+
+add location where you paste the cloudsim in Documents
+
+after click next and finish 
+
+now left side click arrow and select examples and double click 1 example and run 
+
+
+
